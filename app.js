@@ -11,7 +11,5 @@ imgs.forEach( ( img )=> {
         img.setAttribute("id", "card");
         console.log(img.children[0]);
         setTimeout(()=>(img.children[0].style.display="block"),1000 );
-        
     })
-    
 });
